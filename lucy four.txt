@@ -1,0 +1,15 @@
+# lucy four
+
+t=int(input())
+occ=[]
+count=0
+for i in range(t):
+    ip=input()
+    for j in ip:
+        if j=='4':
+            count+=1 
+    occ.append(count)
+    count=0
+    
+for i in occ:
+    print(i)
